@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="" content="width=device-width, initial-scale=1">
+    <title>Registration Baxter Website</title>
+    <link  rel="stylesheet" type="text/css" href="styles.css"> 
+
+</head>
+    
+<body>
+    <header>
+        <div class="nav-container">
+            <ul>
+                <li class="navigation"><a href="index.html">Home</a></li>
+                <li class="navigation"><a href="about.html">About</a></li>
+                <li class="navigation"><a href="contact.html">Contact</a></li>
+                <li class="navigation"><a href="support.html">Support</a></li>
+                <li class="navigation"><a href="faqs.html">FAQs</a></li>
+                <li class="navigation"><a href="events.html">Events</a></li>
+            </ul>
+            
+        </div>
+    </header>
+    
+    <div id="companylogowrapper">
+        <img id="evergreen-logo" src="Images/evergreen.png">
+        <p>Evergreen Company</p>
+    </div>
+    
+    
+    <div id="wrap">
+        <div id="registration-box">
+                <h1 class="registration-word">Registration</h1>
+
+                <form id="registration_form" action="register.php" method="post" accept-charset="UTF-8" autocomplete="off">
+
+                   <fieldset>
+                       <p class="section-label">Personal Infomation</p>
+                        <label>First Name:</label>
+                        <input id="first-name" type="text" name="firstname" placeholder="First Name">
+                        <span>Please enter first name.</span>
+                        <label>Last Name:</label>
+                        <input id="last-name"type="text" name="lastname" placeholder="Last name">
+                        <span>Please enter last name.</span>
+                        <br>
+                        <label>Address 1:</label>
+                        <input type="text" name="street" placeholder="Street">
+                        <label>Address 2:</label>
+                        <input type="text" name="street" placeholder="Street">
+                        <label>City:</label>
+                        <input type="text" name="city" placeholder="City">
+                        <label>State:</label>
+                        <select>
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">District Of Columbia</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                        </select>				
+                        <label>Zipcode:</label>
+                        <input id="zipcode" type="text" name="zipcode" placeholder="zip">e.g 48228
+                        <br>
+                        <label>Country:</label>
+                        <select>
+                        <option value="US">United States</option>
+                        </select>
+                        <br>
+                        <p class="section-label">Phone Number:</p>
+                        Best way to contact:
+                        <select>
+                            <option>Home</option>
+                            <option>Cell</option>
+                        </select>
+                        <br>
+                        <label>Cell:</label>
+                        <input type="tel" name="cell" placeholder="(       )           -     ">
+                        <label>Home:</label>
+                        <input type="tel" name="home" placeholder="(       )           -       ">
+                    <br>
+
+                       <p class="section-label">Account Details</p>
+                       <label>Email:</label>
+                        <input id="email" type="email" pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])
+                        " name="email"  placeholder=" Enter Your Email:">
+                        <span>Not valid email.</span>
+                        <label>Confirm Email:</label>
+                        <input id="confirm-email" type="email" pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])
+                        " name="confirmemail" placeholder="Confirm Your Email">
+                        <span>Not valid email.</span>
+                        <br>
+                        <label>Password:</label>
+                        <input id="password" type="password" name="password" size="20" placeholder="Password">
+                        <span>Enter a password longer than 8 characters.</span>
+                        <label>Confirm Password:</label>
+                        <input id="confirm-password" type="password" name="confirmpassowrd" size="20" placeholder="Confirm Password">
+                        <span>Please confirm your password.</span>
+
+                    <br>
+
+                       <p class="section-label">Additional Information</p>
+                        <label>Gender:</label>
+                        <input id="radio" type="radio" name="gender" value="male" checked>Male
+                        <input id="radio" type="radio" name="gender" value="female" checked>Female
+                        <input  id="radio" type="radio" name="gender" value="other">Other
+                        <br>
+                        <label>Birthdate: </label>
+                        <select>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>        
+                       </select>
+
+                       <select>
+                            <option value="">January</option>
+                            <option value="">Febuary</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">October</option>
+                            <option value="">September</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                       </select>
+                       <input type="text" value="">e.g 1989
+
+                    <br>
+
+                       <p class="section-label">Terms and Mailing</p>
+                       <input id="checkbox" type="checkbox" name="acceptterms">* I accet the Terms and Conditions
+                        <br>
+                       <input id="checkbox" type="checkbox" name="mailinglist">I want to recieve personalized offers from our site
+
+                   <div id="submitbutton">
+                    <input type="button" id="button" value="Register" style="font-size:20px">
+                    </div>
+
+                     </fieldset>
+                </form>      
+            </div>
+       
+        
+    </div> 
+    
+    
+    <footer>
+        <div id="companylogowrapper">
+            <img id="evergreen-logo2" src="Images/evergreen.png">
+            <p class="company-name">Evergreen Company</p>
+        </div>
+        <ul>
+            <li><img class="social-icon" src="Images/facebook.png"></li>
+            <li><img class="social-icon" src="Images/twitter.png"></li>
+            <li><img class="social-icon" src="Images/instagram.png"></li>
+            <li><img class="social-icon" src="Images/linkedin.png"></li>
+        </ul>
+        
+        <ul>
+            <li class="foot-nav">About</li>
+            <li class="foot-nav">Blog</li>
+            <li class="foot-nav">Forum</li>
+            <li class="foot-nav">Contact</li
+        </ul>
+        <p>Please contact: kbax6342@gmail.com for information.</p>
+        <a>Terms and Conditions of Use &amp; Discliamer </a>
+        <p>Coppyright &copy; Baxter Website. All rights reserved</p>
+    </footer>
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="script.js" type="text/javascript" charset="utf-8"></script>
+   
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+html{
+    font-family: sans-serif;
+ 
+}
+
+body{
+    margin: 0;
+    background-color: floralwhite;
+   
+}
+
+input {
+    width: 18em;
+    height: 2em;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+
+input:active,
+input:focus {
+    box-shadow: 2px blue;
+}
+
+
+
+
+
+/*****************************
+Navigation
+*****************************/
+
+header{
+    background-color: darkseagreen;
+    width: 100%;
+    height: 5em; 
+}
+
+header ul li {
+    
+    padding-top:20px;
+    font-size: x-large;
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+
+header ul{
+    
+   margin-top: 0px;
+}
+
+a{
+    padding:20px;
+    color:white;
+    text-decoration:none;
+}
+
+#evergreen{
+    width: 3em;
+    height: 3em;
+    
+}
+
+.navigation:hover{
+    padding: 20px;
+    background-color:darkolivegreen;
+    
+}
+
+.nav-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+    
+}
+
+#checkbox{
+    width: 2em;
+}
+
+
+
+
+
+/*****************************
+Registration Body
+*****************************/
+#wrap {
+    min-height: calc(100vh - 250px);
+}
+
+#companylogowrapper{
+    margin-top:30px;
+    text-align:center;
+}
+
+ #evergreen-logo{
+    margin: 0 auto;
+    width: 10em;
+    height: 10em;
+}
+.registration-word{
+    
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2.3em;
+}
+#registration-box{
+    margin: 50px 60px;
+    border:solid 2px black;
+    background-color: #E9C2A6;
+    border-radius: 10px 10px 10px 10px;
+}
+
+fieldset{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: blanchedalmond;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#button{
+    text-align:center;
+    margin-top: 50px;
+    height:3em;
+    color: white;
+    background-color: darkgreen;
+}
+
+#middle-name{
+    width: 3em;
+}
+.section-label{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+#radio{
+    width: 2em;
+}
+
+#zipcode {
+    width: 4em;
+}
+#submitbutton{
+    text-align:center;
+}
+span{
+    font-size:x-small;
+    color:red;
+}
+/*****************************
+Footer
+*****************************/
+
+footer{  
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color:darkslategray;
+    color:white;
+}
+footer ul li {
+    
+    
+    font-size: x-large;
+    list-style: none;
+    display:inline-block;
+}
+
+#evergreen-logo2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 5em;
+    height: 5em;
+}
+
+.company-name{
+    margin-top:0;
+}
+
+.social-icon{
+    width: 3em;
+    height: 3em;
+}
+.foot-nav{
+    margin: 10px;
+}
+
+/*****************************
+Welcome Page Section
+*****************************/
+
+.welcome-wrap{
+   margin-top: 10%;
+    text-align: center;
+    
+}
+.welcome-caption{
+    color:darkgray;
+}
+
+/*****************************
+Mobile Display
+*****************************/
+@media (min-width: 568px){
+        .nav-container select {display:none;}
+        .nav-container button {display:none;}
+    }
+
+
+@media (min-width: 320px) and (max-width: 568px){
+    .nav-container ul{
+        display: none;
+    }
+    
+    select {
+	width: 84%;
+	margin: 11px  0 11px 2%;
+	float: left;
+}
+    
+    fieldset{
+        width: 234px;
+        display:flex;
+    }
+    
+    select{
+        width: 200px;
+    }
+    #button{
+    width:150px;
+    text-align:center;
+    margin-top: 50px;
+    height:3em;
+    color: white;
+    background-color: darkgreen;
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
